@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff7f8"><title>Happy Birthday, Nama Dia ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<div id="cursorGlow"></div><div id="sparkleLayer"></div>
+<div id="loader" class="loader"><div class="loader-heart">♡</div><p>Preparing something special...</p><small>please wait a little ♡</small><div class="loader-bar"><i></i></div></div>
+
+<section id="lock" class="lock">
+  <div class="lock-bg"></div><div class="aurora a1"></div><div class="aurora a2"></div>
+  <div class="lock-card">
+    <span class="badge">PRIVATE SURPRISE</span><div class="lock-icon">♡</div>
+    <span class="eyebrow">ONLY FOR ONE SPECIAL PERSON</span>
+    <h1>A Special<br><em>Surprise For You</em></h1>
+    <p>Enter the secret password to open your little birthday world.</p>
+    <form id="passwordForm">
+      <div class="pass-field"><span>♥</span><input id="password" type="password" placeholder="Secret password" autocomplete="off"><button id="showPass" type="button">◉</button></div>
+      <button class="main-btn full" type="submit">Unlock the Surprise <b>→</b></button>
+      <small id="passMsg" class="pass-msg"></small>
+    </form>
+    <small class="hint">hint: something only you would know ✦</small>
+  </div>
+</section>
+
+<div id="site" class="site" aria-hidden="true">
+<header class="header"><nav class="nav wrap">
+  <a href="#home" class="brand">♡ <span>For You</span></a>
+  <button id="menuBtn" class="menu-btn" aria-label="Menu"><i></i><i></i><i></i></button>
+  <div id="navMenu" class="nav-menu"><a href="#home">Home</a><a href="#message">Message</a><a href="#reasons">Reasons</a><a href="#gallery">Gallery</a><a href="#memories">Memories</a><a href="#wishes">Wishes</a><a href="#surprise">Surprise</a></div>
+</nav></header>
+
+<button id="musicBtn" class="music-btn">♫<small id="musicText">MUSIC</small></button><audio id="audio" loop preload="auto"></audio>
+<div id="hearts" class="hearts"></div><div id="confetti" class="confetti-layer"></div>
+
+<section id="home" class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal"><span class="eyebrow">TODAY IS ALL ABOUT YOU</span><h2>Happy Birthday,<br><em id="name1">Nama Dia</em></h2><p id="heroText"></p>
+      <div class="hero-actions"><a class="main-btn" href="#message">Start the Journey <b>↓</b></a><button id="moreBtn" class="ghost-btn">There is more...</button></div>
+      <div class="stats"><div><b>∞</b><span>good wishes</span></div><div><b>♡</b><span>sweet memories</span></div><div><b>✦</b><span>new chapter</span></div></div>
+    </div>
+    <div class="hero-art reveal delay"><div class="orbit"></div><div class="hero-photo"><img id="heroPhoto" src="assets/images/photo1.jpg" alt="Birthday girl"><span>A beautiful soul ✿</span></div><div class="float-pill p1">for someone special ♡</div><div class="float-pill p2">made with love ✦</div></div>
+  </div><div class="scroll-cue">scroll to explore <span>⌄</span></div>
+</section>
+
+<section class="count-sec"><div class="wrap count-card reveal"><div><span class="eyebrow">A LITTLE COUNTDOWN</span><h3>Celebrate <em>today.</em></h3></div><div class="countdown"><div><b id="d">00</b><small>days</small></div><i>:</i><div><b id="h">00</b><small>hours</small></div><i>:</i><div><b id="m">00</b><small>minutes</small></div><i>:</i><div><b id="s">00</b><small>seconds</small></div></div></div></section>
+
+<section id="message" class="section soft"><div class="wrap narrow"><div class="title reveal"><span class="eyebrow">A LETTER JUST FOR YOU</span><h3>Birthday <em>Message</em></h3><div class="line"></div></div><article class="letter reveal delay"><small>A NOTE FROM THE HEART · 02 / 10 / 2026</small><div id="typed" class="typed"></div><div class="sign"><span>with all the love,</span><strong>someone who cares ♡</strong></div><button id="again" class="small-btn">Read it again ↻</button></article></div></section>
+
+<section id="reasons" class="section"><div class="wrap"><div class="title reveal"><span class="eyebrow">JUST BECAUSE</span><h3>Little Things That Make You <em>Special</em></h3><p>Tap any card to reveal its secret.</p></div><div id="reasonsGrid" class="reason-grid"></div></div></section>
+
+<section id="gallery" class="section soft"><div class="wrap"><div class="title reveal"><span class="eyebrow">FREEZE THE MOMENTS</span><h3>Memory <em>Gallery</em></h3><p>Tap, swipe, or use the arrows.</p></div><div class="gallery-stage reveal"><button id="prev" class="car left">‹</button><div class="featured"><img id="featureImg" src="assets/images/photo1.jpg" alt="Memory"><div><small id="photoNo">01 / 06</small><strong id="photoCap">A beautiful little moment</strong></div></div><button id="next" class="car right">›</button></div><div id="thumbs" class="thumbs"></div></div></section>
+
+<section id="memories" class="section"><div class="wrap"><div class="title reveal"><span class="eyebrow">OUR LITTLE STORY</span><h3>Beautiful <em>Memories</em></h3></div><div id="timeline" class="timeline"></div></div></section>
+
+<section class="section cake-sec"><div class="wrap cake-grid"><div class="cake-copy reveal"><span class="eyebrow">MAKE A WISH</span><h3>Before you leave...<br><em>blow the candle.</em></h3><p>Tap the flame and make a secret wish. The little stars will do the rest.</p><div class="wish-counter"><span id="wishCount">0</span> wishes made on this page ✦</div></div><div class="cake-scene reveal delay"><div class="cake-glow"></div><button id="candle" class="candle"><span class="flame"></span></button><div class="cake-top"></div><div class="cake-body"><i></i><i></i><i></i><i></i><b>♡</b></div><div class="plate"></div><p id="cakeMsg"></p></div></div></section>
+
+<section id="wishes" class="section soft"><div class="wrap"><div class="title reveal"><span class="eyebrow">A POCKET FULL OF GOOD THINGS</span><h3>Birthday <em>Wishes</em></h3></div><div id="wishGrid" class="wish-grid"></div><div class="random reveal"><button id="randomWish" class="outline-btn">Give me a random wish ✦</button><p id="randomText">Tap the button to reveal one.</p></div></div></section>
+
+<section id="surprise" class="section surprise"><div class="starfield"></div><div class="wrap narrow"><div class="surprise-card reveal"><span class="eyebrow">ONE LAST SURPRISE</span><h3>There is always room<br>for <em>one more wish.</em></h3><p>Happy Birthday, <strong id="name2">Nama Dia</strong>. May this chapter be softer, brighter, and full of moments worth remembering.</p><button id="finalWish" class="main-btn center">Make a Wish <b>✦</b></button><div id="result" class="result"></div><div class="gift"><button id="gift" class="gift-box" aria-label="Open gift"><i class="base"></i><i class="lid"></i><i class="ribbon-v"></i><i class="ribbon-h"></i></button><small>psst... tap the gift</small></div><div id="secret" class="secret">♡<strong>You deserve every beautiful thing coming your way.</strong></div></div></div></section>
+<footer class="footer"><div class="wrap"><div>♡</div><p>Keep smiling. Keep shining. Keep being you.</p><small>Made especially for a beautiful birthday.</small></div></footer>
+
+<div id="lightbox" class="lightbox"><button id="closeLight">×</button><button id="lightPrev" class="light-nav nl">‹</button><figure><img id="lightImg"><figcaption id="lightCap"></figcaption></figure><button id="lightNext" class="light-nav nr">›</button></div>
+</div>
+<script src="script.js"></script>
+</body></html>
