@@ -9,25 +9,25 @@ timeline: [
         '2023',
         'Awal dari Sebuah Cerita',
         'Terkadang, momen kecil menjadi awal dari sesuatu yang indah. Aku tidak pernah menyangka bahwa kamu akan menjadi seseorang yang begitu istimewa dalam hidupku.',
-        'assets/images/fotbar (1).jpeg'
+        'assets/images/Fotbar1.jpeg'
     ],
     [
         '2024',
         'Momen Kecil, Arti yang Besar',
         'Setiap tawa, percakapan sederhana, dan waktu yang kita habiskan bersama menjadi kenangan yang tidak ingin aku lupakan.',
-        'assets/images/fotbar (4).jpeg'
+        'assets/images/Fotbar4.jpeg'
     ],
     [
         '2025',
         'Tumbuh Bersama',
         'Di setiap hari yang penuh kebahagiaan maupun kesulitan, aku berharap kita bisa terus belajar, tumbuh bersama, dan menemukan lebih banyak alasan untuk tetap memilih satu sama lain.',
-        'assets/images/fotbar (3).jpeg'
+        'assets/images/Fotbar3.jpeg'
     ],
     [
         '2026',
         'Cerita Favoritku Adalah Kamu',
         'Jika hidup adalah sebuah buku, aku berharap masih ada banyak halaman indah yang bisa kita tulis bersama. Dan jika diberi kesempatan untuk memilih lagi, aku tetap bahagia karena bisa menjadikanmu bagian dari ceritaku.',
-        'assets/images/fotbar (2).jpeg'
+        'assets/images/Fotbar2.jpeg'
     ]
 ],
  wishes:['Semoga semua impianmu menemukan jalannya. ✨','Semoga kamu selalu dikelilingi orang-orang yang tulus menyayangimu. ❤️','Semoga tahun ini memberimu lebih banyak alasan untuk tersenyum.','Semoga hatimu selalu punya tempat untuk tenang.','Semoga setiap langkahmu bertemu dengan hal-hal baik.','Semoga kamu selalu ingat betapa berharganya dirimu. ♡']
